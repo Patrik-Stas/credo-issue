@@ -1,0 +1,27 @@
+{
+  "name": "credo-paradym-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "demo": "tsx src/demo.ts"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "tsx": "^4.19.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@credo-ts/askar": "0.5.10",
+    "@credo-ts/core": "0.5.10",
+    "@credo-ts/node": "0.5.10",
+    "@credo-ts/openid4vc": "0.5.10",
+    "@hyperledger/aries-askar-nodejs": "0.2.3",
+    "@credo-ts/tenants": "0.5.10",
+    "@paralleldrive/cuid2": "^2.2.2",
+    "axios": "^1.7.3",
+    "bs58": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1"
+  }
+}
